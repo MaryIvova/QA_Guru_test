@@ -34,11 +34,11 @@ test('Поиск эллемента по классу', async ({ page }) => {
   await page.locator('[name="email"]').fill('maryz@ya.ru');
   await page.locator('[id="password"]').click();
   await page.locator('[id="password"]').fill('asdasd,123');
-  await page.locator('[in="btn"]').click();
+  await page.locator('[id="btn"]').click();
   await expect(page.locator('[id="welcome-txt"]')).toContainText('Привет');
 });
 
-test.only('Поиск эллемента по семантическому селектору', async ({ page }) => {
+/*test.only('Поиск эллемента по семантическому селектору', async ({ page }) => {
   // arrange или настройка, предусловие
   await page.goto(URL);
   await page.getByPlaceholder('Email').click();
@@ -47,4 +47,4 @@ test.only('Поиск эллемента по семантическому се�
   await page.getByPlaceholder('Пароль').fill('asdasd,123');
   await page.getByRole('button', { name: 'Войти' }).click();
   await expect(page.locator('[id="welcome-txt"]')).toContainText('Привет');
-});
+});*/
