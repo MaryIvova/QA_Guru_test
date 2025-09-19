@@ -1,4 +1,5 @@
 import { th } from '@faker-js/faker';
+import { test } from '@playwright/test';
 
 export class RegisterPage {
   constructor(page) {
@@ -12,13 +13,19 @@ export class RegisterPage {
     this.emailErrorText = page.getByText('Email  already exists.. try logging in ');
   }
   async register(user) {
-    const { name, email, password } = user;
-    await this.nameInput.click();
-    await this.nameInput.fill(name);
-    await this.emailInput.click();
-    await this.emailInput.fill(email);
-    await this.passwordInput.click();
-    await this.passwordInput.fill(password);
-    await this.signupButton.click();
+    return test.step(`Регистрация пользователя с ${user.name} с имейл ${user.email} и паролем ${user.password}`, async (step) => {
+      step.attach('Реквизиты доступа', {
+        body: `с ${user.name} с имейл ${user.email} и паролем ${user.password}`,
+        contetnType: 'text/plain',
+      });
+      const { name, email, password } = user;
+      await this.nameInput.click();
+      await this.nameInput.fill(name);
+      await this.emailInput.click();
+      await this.emailInput.fill(email);
+      await this.passwordInput.click();
+      await this.passwordInput.fill(password);
+      await this.signupButton.click();
+    });
   }
 }

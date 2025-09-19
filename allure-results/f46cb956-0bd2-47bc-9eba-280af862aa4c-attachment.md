@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+        - link " Profile":
+          - /url: "#/profile/mary"
+        - link " Settings":
+          - /url: "#/settings"
+        - link " Logout":
+          - /url: "#/profile/mary"
+- main:
+  - img "mary"
+  - heading "mary" [level=4]
+  - link " Edit Profile Settings":
+    - /url: "#/settings"
+  - list:
+    - listitem:
+      - link "My Articles":
+        - /url: "#/profile/mary"
+    - listitem:
+      - link "Favorited Articles":
+        - /url: "#/profile/mary/favorites"
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 18, 2025
+  - button " ( 0 )"
+  - link "pure simplistic Read more... silent":
+    - /url: "#/article/pure"
+    - heading "pure" [level=1]
+    - paragraph: simplistic
+    - text: Read more...
+    - list:
+      - listitem: silent
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 18, 2025
+  - button " ( 0 )"
+  - link "apprehensive meaty Read more... icy":
+    - /url: "#/article/apprehensive"
+    - heading "apprehensive" [level=1]
+    - paragraph: meaty
+    - text: Read more...
+    - list:
+      - listitem: icy
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 18, 2025
+  - button " ( 0 )"
+  - link "fatal educated Read more... wrathful":
+    - /url: "#/article/fatal"
+    - heading "fatal" [level=1]
+    - paragraph: educated
+    - text: Read more...
+    - list:
+      - listitem: wrathful
+  - navigation "Pagination":
+    - listitem:
+      - button "Previous page" [disabled]: 
+    - listitem:
+      - button "Page 1 is your current page": "1"
+    - listitem:
+      - button "Page 2": "2"
+    - listitem:
+      - button "Page 3": "3"
+    - listitem:
+      - button "Page 4": "4"
+    - listitem:
+      - button "Next page": 
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

@@ -1,0 +1,108 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+        - link " Profile":
+          - /url: "#/profile/mary"
+        - link " Settings":
+          - /url: "#/settings"
+        - link " Logout":
+          - /url: "#/profile/mary"
+- main:
+  - img "mary"
+  - heading "mary" [level=4]
+  - link " Edit Profile Settings":
+    - /url: "#/settings"
+  - list:
+    - listitem:
+      - link "My Articles":
+        - /url: "#/profile/mary"
+    - listitem:
+      - link "Favorited Articles":
+        - /url: "#/profile/mary/favorites"
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "burdensome dim Read more... essential":
+    - /url: "#/article/burdensome"
+    - heading "burdensome" [level=1]
+    - paragraph: dim
+    - text: Read more...
+    - list:
+      - listitem: essential
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "rapid profitable Read more... wobbly":
+    - /url: "#/article/rapid"
+    - heading "rapid" [level=1]
+    - paragraph: profitable
+    - text: Read more...
+    - list:
+      - listitem: wobbly
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "standard friendly Read more... sniveling":
+    - /url: "#/article/standard"
+    - heading "standard" [level=1]
+    - paragraph: friendly
+    - text: Read more...
+    - list:
+      - listitem: sniveling
+  - navigation "Pagination":
+    - listitem:
+      - button "Previous page" [disabled]: 
+    - listitem:
+      - button "Page 1 is your current page": "1"
+    - listitem:
+      - button "Page 2": "2"
+    - listitem:
+      - button "Page 3": "3"
+    - listitem:
+      - button "Page 4": "4"
+    - listitem:
+      - button "Page 5": "5"
+    - listitem:
+      - button "Next page": 
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

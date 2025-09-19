@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 import { test, expect } from '@playwright/test';
 import { LogInPage } from '../../src/pages/logIn.Page';
-import { ArticleCreation } from '../../src/pages/createArticlePage';
+import { ArticleCreation, MyArticlesPage } from '../../src/pages/index';
 
 // Or create the file '../src/pages/mainPage.js' if it does not exist.
 
@@ -22,7 +22,7 @@ test.describe('Логин', () => {
     //await expect(yourFeed).toBeVisible();
   });*/
 
-  test.only('New Article', async ({ page }) => {
+  test('New Article', async ({ page }) => {
     const article = {
       title: faker.word.adjective(),
       description: faker.word.adjective(),
@@ -37,6 +37,20 @@ test.describe('Логин', () => {
     expect(articleTT).toBeVisible;
   });
 
-  test('Check My articler', async ({ page }) => {});
+  test('Check My articles', async ({ page }) => {
+    const article = {
+      title: faker.word.adjective(),
+      description: faker.word.adjective(),
+      text: faker.lorem.lines(3),
+      tags: faker.word.adjective(),
+    };
+    const newArticle = new ArticleCreation(page);
+    await newArticle.createArticle(article);
+
+    const myArticlesPage = new MyArticlesPage(page);
+    // const articlePreview = page.locator('//*[text() = "pleasant"]');
+    //expect(articlePreview).toBeVisible;
+    await myArticlesPage.checkCreatedArticle(article.title);
+  });
   //test ('EditProfile', async ({ page }) => {}
 });

@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " Login":
+          - /url: "#/login"
+      - listitem:
+        - link "Sign up":
+          - /url: "#/register"
+- main:
+  - heading "Sign up" [level=1]
+  - paragraph:
+    - link "Sign in to your account":
+      - /url: "#/login"
+  - group:
+    - textbox "Your Name": Judy Hilpert
+  - group:
+    - textbox "Email": Vance.Adams98@gmail.com
+  - group:
+    - textbox "Password": aj2HP7y02x
+  - button "Sign up"
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

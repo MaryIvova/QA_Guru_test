@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+        - link " Profile":
+          - /url: "#/profile/mary"
+        - link " Settings":
+          - /url: "#/settings"
+        - link " Logout":
+          - /url: "#/profile/mary"
+- main:
+  - img "mary"
+  - heading "mary" [level=4]
+  - link " Edit Profile Settings":
+    - /url: "#/settings"
+  - list:
+    - listitem:
+      - link "My Articles":
+        - /url: "#/profile/mary"
+    - listitem:
+      - link "Favorited Articles":
+        - /url: "#/profile/mary/favorites"
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "stable dearest Read more... firm":
+    - /url: "#/article/stable"
+    - heading "stable" [level=1]
+    - paragraph: dearest
+    - text: Read more...
+    - list:
+      - listitem: firm
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "defensive frank Read more... substantial":
+    - /url: "#/article/defensive"
+    - heading "defensive" [level=1]
+    - paragraph: frank
+    - text: Read more...
+    - list:
+      - listitem: substantial
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "personal helpless Read more... functional":
+    - /url: "#/article/personal"
+    - heading "personal" [level=1]
+    - paragraph: helpless
+    - text: Read more...
+    - list:
+      - listitem: functional
+  - navigation "Pagination":
+    - listitem:
+      - button "Previous page" [disabled]: 
+    - listitem:
+      - button "Page 1 is your current page": "1"
+    - listitem:
+      - button "Page 2": "2"
+    - listitem:
+      - button "Page 3": "3"
+    - listitem:
+      - button "..."
+    - listitem:
+      - button "Page 6": "6"
+    - listitem:
+      - button "Page 7": "7"
+    - listitem:
+      - button "Page 8": "8"
+    - listitem:
+      - button "Next page": 
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

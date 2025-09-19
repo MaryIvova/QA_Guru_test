@@ -1,0 +1,152 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " Login":
+          - /url: "#/login"
+      - listitem:
+        - link "Sign up":
+          - /url: "#/register"
+- main:
+  - heading "conduit" [level=1]
+  - paragraph: A place to share your knowledge.
+  - list:
+    - listitem:
+      - button "Global Feed"
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "stingy scientific Read more... lasting":
+    - /url: "#/article/stingy"
+    - heading "stingy" [level=1]
+    - paragraph: scientific
+    - text: Read more...
+    - list:
+      - listitem: lasting
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "stable dearest Read more... firm":
+    - /url: "#/article/stable"
+    - heading "stable" [level=1]
+    - paragraph: dearest
+    - text: Read more...
+    - list:
+      - listitem: firm
+  - link "Marina":
+    - /url: "#/profile/Marina"
+    - img "Marina"
+  - link "Marina":
+    - /url: "#/profile/Marina"
+  - text: September 19, 2025
+  - button " ( 0 )"
+  - link "g hn hgn Read more... hgf":
+    - /url: "#/article/g-hn"
+    - heading "g hn" [level=1]
+    - paragraph: hgn
+    - text: Read more...
+    - list:
+      - listitem: hgf
+  - navigation "Pagination":
+    - listitem:
+      - button "Previous page" [disabled]: 
+    - listitem:
+      - button "Page 1 is your current page": "1"
+    - listitem:
+      - button "Page 2": "2"
+    - listitem:
+      - button "Page 3": "3"
+    - listitem:
+      - button "..."
+    - listitem:
+      - button "Page 6273": "6273"
+    - listitem:
+      - button "Page 6274": "6274"
+    - listitem:
+      - button "Page 6275": "6275"
+    - listitem:
+      - button "Next page": 
+  - complementary:
+    - heading "Popular Tags" [level=6]
+    - button "реклама"
+    - button "autus"
+    - button "iste"
+    - button "tripudio"
+    - button "amplus"
+    - button "inflammatio"
+    - button "ver"
+    - button "umbra"
+    - button "apto"
+    - button "bestia"
+    - button "placeat"
+    - button "vinitor"
+    - button "asporto"
+    - button "aestivus"
+    - button "armarium"
+    - button "adfectus"
+    - button "conduco"
+    - button "acsi"
+    - button "timor"
+    - button "bene"
+    - button "sortitus"
+    - button "sumo"
+    - button "ustilo"
+    - button "sperno"
+    - button "trepide"
+    - button "perferendis"
+    - button "clamo"
+    - button "videlicet"
+    - button "cognatus"
+    - button "vulgus"
+    - button "voluptate"
+    - button "consuasor"
+    - button "denego"
+    - button "conscendo"
+    - button "tergum"
+    - button "volutabrum"
+    - button "verto"
+    - button "cras"
+    - button "capto"
+    - button "peccatus"
+    - button "subito"
+    - button "confido"
+    - button "subnecto"
+    - button "creber"
+    - button "abduco"
+    - button "suggero"
+    - button "vallum"
+    - button "terra"
+    - button "alienus"
+    - button "vetus"
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

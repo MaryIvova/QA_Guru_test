@@ -1,4 +1,4 @@
-export class GlobaFeed {
+export class GlobalFeedPage {
   constructor(page) {
     // техническое описание страницы
     this.signupLink = page.getByRole('link', { name: 'Sign up' });
