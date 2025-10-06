@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+- main:
+  - img "mary"
+  - heading "mary" [level=4]
+  - link " Edit Profile Settings":
+    - /url: "#/settings"
+  - list:
+    - listitem:
+      - link "My Articles":
+        - /url: "#/profile/mary"
+    - listitem:
+      - link "Favorited Articles":
+        - /url: "#/profile/mary/favorites"
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 23, 2025
+  - button " ( 0 )"
+  - link "outlandish formal Read more... busy":
+    - /url: "#/article/outlandish"
+    - heading "outlandish" [level=1]
+    - paragraph: formal
+    - text: Read more...
+    - list:
+      - listitem: busy
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 23, 2025
+  - button " ( 0 )"
+  - link "frail majestic Read more... icy":
+    - /url: "#/article/frail"
+    - heading "frail" [level=1]
+    - paragraph: majestic
+    - text: Read more...
+    - list:
+      - listitem: icy
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 23, 2025
+  - button " ( 0 )"
+  - link "circular updated Read more... untimely":
+    - /url: "#/article/circular"
+    - heading "circular" [level=1]
+    - paragraph: updated
+    - text: Read more...
+    - list:
+      - listitem: untimely
+  - navigation "Pagination":
+    - listitem:
+      - button "Previous page" [disabled]: 
+    - listitem:
+      - button "Page 1 is your current page": "1"
+    - listitem:
+      - button "Page 2": "2"
+    - listitem:
+      - button "Page 3": "3"
+    - listitem:
+      - button "..."
+    - listitem:
+      - button "Page 11": "11"
+    - listitem:
+      - button "Page 12": "12"
+    - listitem:
+      - button "Page 13": "13"
+    - listitem:
+      - button "Next page": 
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

@@ -8,7 +8,7 @@ test.describe('Регистрация', () => {
   // test.beforeEach(async ({ page }) => {
   // await page.goto(URL);
   // });
-  test.only('Пользователь не может зарегистрироваться повторно Fixture', async ({ app }) => {
+  test('Пользователь не может зарегистрироваться повторно Fixture', async ({ app }) => {
     const user = new UserBuilder().addEmail().addName().addPassword().generate();
 
     await app.main.gotoRegister();
@@ -20,9 +20,7 @@ test.describe('Регистрация', () => {
       'Email already exists.. try logging in',
     );
   });
-  test.only('Пользователь не может зарегистрироваться повторно Fixture2', async ({
-    registerUser,
-  }) => {
+  test('Пользователь не может зарегистрироваться повторно Fixture2', async ({ registerUser }) => {
     return test.step;
   });
 });

@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+        - link " Profile":
+          - /url: "#/profile/mary"
+        - link " Settings":
+          - /url: "#/settings"
+        - link " Logout":
+          - /url: "#/article/enlightened"
+- main:
+  - heading "enlightened" [level=1]
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 23, 2025
+  - button " Delete Article"
+  - button " Edit Article":
+    - link " Edit Article":
+      - /url: "#/editor/enlightened"
+  - paragraph: Teneo voluptas vorax aspicio ascit tunc absum cohaero ratione cometes. Ante tricesimus casso. Facilis titulus supellex amita quasi nostrum uxor.
+  - list:
+    - listitem: frugal
+  - separator
+  - link "mary":
+    - /url: "#/profile/mary"
+    - img "mary"
+  - link "mary":
+    - /url: "#/profile/mary"
+  - text: September 23, 2025
+  - button " Delete Article"
+  - button " Edit Article":
+    - link " Edit Article":
+      - /url: "#/editor/enlightened"
+  - textbox "Write a comment..."
+  - img "mary"
+  - button "Post Comment"
+  - text: There are no comments yet...
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

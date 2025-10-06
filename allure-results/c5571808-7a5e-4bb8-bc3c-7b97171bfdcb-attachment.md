@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "conduit":
+      - /url: "#/"
+    - list:
+      - listitem:
+        - link " Source code":
+          - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - link " New Article":
+          - /url: "#/editor"
+      - listitem:
+        - img "mary"
+        - text: mary
+        - link " Profile":
+          - /url: "#/profile/mary"
+        - link " Settings":
+          - /url: "#/settings"
+        - link " Logout":
+          - /url: "#/article/gray"
+- main:
+  - heading [level=1]
+  - link "placeholder":
+    - /url: "#/profile/undefined"
+    - img "placeholder"
+  - link:
+    - /url: "#/profile/undefined"
+  - text: Invalid Date
+  - button " Follow ( )"
+  - button " Favorite ( )"
+  - separator
+  - link "placeholder":
+    - /url: "#/profile/undefined"
+    - img "placeholder"
+  - link:
+    - /url: "#/profile/undefined"
+  - text: Invalid Date
+  - button " Follow ( )"
+  - button " Favorite ( )"
+  - textbox "Write a comment..."
+  - img "mary"
+  - button "Post Comment"
+  - text: There are no comments yet...
+- contentinfo:
+  - link "conduit":
+    - /url: "#/"
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+  - list:
+    - listitem:
+      - link " Source code":
+        - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+```

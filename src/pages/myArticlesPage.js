@@ -16,10 +16,10 @@ export class MyArticlesPage {
     await this.userButton.click();
     await expect(this.dropDownProfile).toBeVisible();
     await this.buttonProfile.click();
-    const locator = this.getArticlePreview(article);
+    const locator = this.getArticlePreview(article.title);
 
     //await this.dropDownProfile.selectOption('Profile');
-    await expect(locator).toHaveText(article);
+    await expect(locator).toHaveText(article.title);
   }
 }
 
