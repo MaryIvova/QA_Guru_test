@@ -11,7 +11,7 @@ test.describe('Challenge', () => {
     console.log(`${testinfo.project.use.apiURL}${headers.location}`);
     token = headers['x-challenger'];
   });
-  test.only('получить токен', async ({ request }, testinfo) => {
+  test('получить токен', async ({ request }, testinfo) => {
     const api = new API(request);
     let body = await api.challenges.get(token, testinfo);
     console.log(body);
