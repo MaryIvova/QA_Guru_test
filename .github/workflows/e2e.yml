@@ -20,5 +20,16 @@ jobs:
         run: npm i
       - name: установка браузеров
         run: npx playwright install --with-deps
-      - name: запускаем тесыт
+      - name: запускаем тесты
         run: npm t
+      - name: Запускаем генерацию allure в одном файле
+        run: npm run allureFile
+        if: always()
+        continue-on-error: true
+      #  алюр
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 30
